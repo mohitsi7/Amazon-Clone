@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-icon{
+    display: flex;
+}
+#deliverto{
+    font-size: 0.8rem;
+    color:#cccccc  ;
+    margin-left: 15px;
+    /* padding-top: 10px; */
+}
+#india{
+    font: 1rem;
+    margin-left: 3px;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 620px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+.select{
+    width: 50px;
+    height: 40px;
+    background-color: #e6e6e6;
+    padding-left: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none
+}
+.input{
+    /* width: 400px; */
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchicon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+span{
+    font-size: 0.7rem;
+}
+.p-signin{
+    font-size: 0.85rem;
+    font-weight: bolder;
+}
+.Cart i{
+    font-size: 30px;
+}
+.Cart{
+    font-weight: bolder;
+    font-size: 0.85rem;
+}
+.panel{
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panelbox2 p{
+    display: inline;
+    margin-left: 20px;
+}
+.panelbox2{
+    width: 80%;
+    font-size: 0.85rem;
+}
+.panelbox3{
+    font-size: 0.9rem;
+}
+.hero-section{
+    height: 380px;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero-msg{
+    height: 40px;
+    width: 80%;
+    background-color: white;
+    color: black;
+    display: flex;
+    font-size: 0.85rem;
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    top: 400px; */
+    margin-bottom: 30px;
+}
+.shopping-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.box{
+    height: 350px;
+    border: none;
+    width: 23%;
+    background-color: aliceblue;
+    padding: 20px 0px 15px;
+    margin-top: 17px;;
+}
+.box1img{
+    height: 280px;
+    background-size: cover;
+    margin-top: 1rem;;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.footpanel1{
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#backto{
+    font-size: 0.85rem;
+    color: #ffffff;
+}
+#backto a{
+    color: #ffffff;
+}
+footer{
+    margin-top: 15px;
+}
+.footpanel2{
+    background-color: #222f3d;
+    color: #ffffff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    color: #dddddd;
+    margin-top: 10px;
+}
+ul{
+    margin-top:20px;
+}
+.footpanel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.7px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}
+.footpanel4{
+    height: 60px;
+    background-color: #0f1111;
+    color: #dddddd;
+    text-align: center;
+}
+.pages a{
+    margin-right: 7px;
+}
+.pages{
+    padding-top: 15px;
+}
+.copyright{
+    padding-top: 8px;
+}
